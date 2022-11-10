@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/itera-game/static/css/main.9b040f0b.css",
-    "main.js": "/itera-game/static/js/main.fd623ca6.js",
+    "main.css": "/itera-game/static/css/main.846899f8.css",
+    "main.js": "/itera-game/static/js/main.f0c05e83.js",
     "static/js/787.e5d65ded.chunk.js": "/itera-game/static/js/787.e5d65ded.chunk.js",
     "index.html": "/itera-game/index.html",
-    "main.9b040f0b.css.map": "/itera-game/static/css/main.9b040f0b.css.map",
-    "main.fd623ca6.js.map": "/itera-game/static/js/main.fd623ca6.js.map",
+    "main.846899f8.css.map": "/itera-game/static/css/main.846899f8.css.map",
+    "main.f0c05e83.js.map": "/itera-game/static/js/main.f0c05e83.js.map",
     "787.e5d65ded.chunk.js.map": "/itera-game/static/js/787.e5d65ded.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b040f0b.css",
-    "static/js/main.fd623ca6.js"
+    "static/css/main.846899f8.css",
+    "static/js/main.f0c05e83.js"
   ]
 }
