@@ -23,8 +23,16 @@ function App() {
 	useEffect(() => {
 		const letters = ["A", "B", "C"];
 		let a = [];
-		for (let i = 0; i < 9; i++) {
-			a.push(letters[Math.floor(Math.random() * 3)]);
+		function newArr1() {
+			for (let i = 0; i < 9; i++) {
+				a.push(letters[Math.floor(Math.random() * 3)]);
+			}
+		}
+		newArr1();
+		if (a.includes("A") && a.includes("B") && a.includes("C")) {
+		} else {
+			a = [];
+			newArr1();
 		}
 		setComponents(a);
 	}, [options.start]);
@@ -47,7 +55,7 @@ function App() {
 			);
 			setComponents(newSet);
 			setOptions({ start: false });
-			alert("You Loose!");
+			alert("You Loose! Next time will be better!");
 			setLoose((prev) => ++prev);
 		}
 
@@ -60,7 +68,7 @@ function App() {
 				setOptions({ start: false });
 				setWin((prev) => ++prev);
 				setReset(true);
-				alert("You Win!");
+				alert("Nice! You Win! Try one more time");
 			}
 		}, 0);
 	}
